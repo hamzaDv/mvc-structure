@@ -1,15 +1,16 @@
 <?php
 // DB Params
 define('DB_HOST', 'localhost');
-define('DB_USER', '__DBUSER__');
-define('DB_PASS', '__DBPASS__');
-define('DB_NAME', '__DBNAME__');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'sharedposts');
 
 // App Root
 define('APPROOT', dirname(dirname( __FILE__ )) );
 
 // URL ROOT
-define('URLROOT', '__YOUR_URL__' );
+define('URLROOT', 'http://127.0.0.1/mvc/sharedposts' );
 
 // SITE NAME
-define('SITENAME', '__APP_NAME__');
+define('SITENAME', 'SharedPosts');
+define('APPVERSION', '1.0.0');
